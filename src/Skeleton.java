@@ -1,23 +1,23 @@
 public class Skeleton extends Boss {
-    private int arrowCount;
+    private int arrows;
 
 
-    public Skeleton(int health, String name, int attackPower, Weapen weapon, int arrowCount) {
-        super(health, name , attackPower, weapon);
-        this.arrowCount = arrowCount;
+    public Skeleton(int health, String name, int damage, Weapen weapon, int arrows) {
+        super(health, name ,damage, weapon);
+        this.arrows = arrows;
     }
 
-    public int getArrowCount() {
-        return arrowCount;
+    public int getArrows() {
+        return arrows;
     }
 
-    public void setArrowCount(int arrowCount) {
-        this.arrowCount = arrowCount;
+    public void setArrows(int arrowCount) {
+        this.arrows = arrowCount;
     }
 
     @Override
     public void printInfo() {
         super.printInfo();
-        System.out.println("Arrow Count: " + arrowCount);
+        System.out.println("Arrow Count: " + arrows);
     }
 }

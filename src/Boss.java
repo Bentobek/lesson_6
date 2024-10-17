@@ -1,7 +1,7 @@
 class Boss extends GameEntity {
     private Weapen weapen;
-    public Boss(int health, String name, int ultimate, Weapen weapen) {
-        super(health, name, ultimate);
+    public Boss(int health, String name, int damage, Weapen weapen) {
+        super(health, name, damage);
         this.weapen = weapen;
     }
 
