@@ -17,7 +17,7 @@ class Boss extends GameEntity {
         System.out.println("Boss name: " + getName());
         System.out.println("Boss health: " + getHealth());
         System.out.println("Boss damage: " + getDamage());
-        System.out.println("Boss weapon: " + getWeapen());
+        System.out.println("Boss weapon: " + getWeapen().getName());
 
     }
 }
